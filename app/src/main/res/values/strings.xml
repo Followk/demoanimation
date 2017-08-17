@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">demoanimation</string>
+    <string name="fb_sharedelementname">fb</string>
+    <string name="item_sharedelementname">item</string>
+</resources>

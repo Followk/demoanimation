@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:paddingTop="40dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/explode_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="explode"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/slide_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Slide"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/slide_reenter_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Slide设置 ReenterTransition"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/circular_reveal_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="原点爆炸demo"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/click_list_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="列表点击图片过渡到下一个页面"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/view_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="View的高度与阴影"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

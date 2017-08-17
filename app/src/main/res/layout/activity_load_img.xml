@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:indicator_height="7dp"
+        app:indicator_margin="3dp"
+        android:transitionName="@string/item_sharedelementname"
+        app:image_scale_type="center_crop"
+        app:indicator_width="7dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="新闻头部"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="好，下面我们来看看如何实现如上面右图一样的效果。
+
+1.原理分析
+
+（1）我们是否需要在点击后开启一个新的Activity呢？我参考了很多有类似功能的相册应用，发现大家都是在一个Activity中就完成了这个功能。所以我们仅仅需要一个布局文件。
+
+（2）在同一个布局文件中我们可以放两个层次，一个是显示小图的GridView控件，一个是用于展示大图的viewPager控件。"/>
+</LinearLayout>
